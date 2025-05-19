@@ -8,6 +8,9 @@ from mclass import MultiTaskModel
 
 app = FastAPI()
 
+@app.get("/")
+def read_root():
+    return {"message": "Backend is running 🚀"}
 # Enable CORS so frontend can call
 app.add_middleware(
     CORSMiddleware,
