@@ -51,7 +51,7 @@ export default function App() {
     const formData = new FormData()
     formData.append('file', file)
     try {
-      const res = await axios.post('https://your-backend-name.onrender.com', formData, {
+      const res = await axios.post('https://perfect-cut.onrender.com', formData, {
         headers: { 'Content-Type': 'multipart/form-data' }
       })
       setResult(res.data)
