@@ -39,7 +39,17 @@ FaceCut HairAdvisor uses machine learning to recognize patterns in facial struct
 * #### [Matplotlib](https://pytorch.org/)
 * #### [Open CV](https://opencv.org/)
 * #### [Streamlit](https://streamlit.io/)
+* 
+## Demo Screenshots 📸
 
+### 🏠 Main Page
+![Main Page](https://i.ibb.co/4ZrvZYP6/Screenshot-2025-06-23-193725.png)
+
+### ⬆️ Uploading Page
+![Upload Page](https://i.ibb.co/zVf6bFty/Screenshot-2025-06-23-193736.png)
+
+### 📊 Result Page
+![Result Page](https://i.ibb.co/jZGqQ4xf/Screenshot-2025-06-23-193707.png)
 <br><br>
 
 ![yoda](https://github.com/MITDeepLearning/introtodeeplearning/raw/2025/lab3/img/yoda_wallpaper.jpg)
