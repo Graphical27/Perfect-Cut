@@ -152,7 +152,25 @@ export default function App() {
   )
 
   return (
-    <div className={`app-container ${darkMode ? 'dark-mode' : ''}`}>
+    <div
+      className={`app-container ${darkMode ? 'dark-mode' : ''}`}
+      style={{
+        width: '100vw',
+        maxWidth: '100vw',
+        minHeight: '100vh',
+        margin: 0,
+        padding: '24px 2vw 0 2vw',
+        boxSizing: 'border-box'
+      }}
+    >
+      {/* Hosting limitation message always at the top */}
+      <div className="hosting-warning" style={{marginBottom: 16, textAlign: 'center'}}>
+        <strong>Note:</strong> The model is on free hosting and may stop working sometimes.
+        For results/prediction, visit the project GitHub:&nbsp;
+        <a href="https://github.com/Graphical27/Perfect-Cut" target="_blank" rel="noopener noreferrer">
+          https://github.com/Graphical27/Perfect-Cut
+        </a>
+      </div>
       <div className="theme-toggle">
         <button 
           className="theme-toggle-button" 
